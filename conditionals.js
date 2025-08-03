@@ -101,7 +101,7 @@ if (studentAge >= 18) {
 
 } else {
     console.log("You are too young to vote.")
-} 
+}
 
 // Output: You are too young to vote.
 
@@ -121,7 +121,27 @@ console.log(math === english); // false
 console.log(math >= 90); // false
 console.log(math <= 9); // 
 
+/* const firstName = "Mehedi ";
+const secondName = "Hasan";
+const fullNmae = firstName + secondName;
+// console.log(firstName + secondName)
+if (firstName == "Mehedi"){
+    console.log("Congratulations" + fullNmae )
+}
+else{
+    console.log("You enter wrong name")
+} */
 
+
+const firstName = "Mehedi";
+const secondName = "Hasan";
+const fullName = firstName + " " + secondName;
+
+if (firstName === "Mehedi") {
+    console.log("Congratulations " + fullName);
+} else {
+    console.log("You entered the wrong name");
+}
 
 
 
