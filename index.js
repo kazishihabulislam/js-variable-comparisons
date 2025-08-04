@@ -20,3 +20,26 @@ else if (biryaniPrice >= 300) {
 
     console.log("Sorry, you cannot buy this biryani because the price is less than 300 taka.")
 }
+
+/* If statement
+// The if statement executes a statement if a specified condition is truthy:
+
+//Example: if statement
+
+if (condition){
+console.log("value"); // Code to be executed
+}
+
+** Else statement 
+// If the condition is falsy, else statement is executed. 
+
+// Example: else statement
+
+if(condition is false){
+consol.log("value"); // Code not to be executed.
+}
+else{
+    consol.log("value"); // Code to be executed.
+}
+
+*/
